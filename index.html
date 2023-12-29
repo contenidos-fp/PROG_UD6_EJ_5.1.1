@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title></title>
+  <link rel='stylesheet' href='css/bootstrap.min.css'>
+<link rel='stylesheet' href='css/all.min.css'><link rel="stylesheet" href="./style.css">
+<link rel="stylesheet" href="css/bootstrap1.min.css" >
+
+</head>
+<body>
+<!-- CONTENEDOR -->
+<div class="container">
+<div id="accordion" class="py-5">
+      
+<div  class="parrafo">
+
+
+
+<!--INICIO BLOQUE PARA PARRAFO + IMG LATERAL DERECHA-->
+
+   <div class="row">
+
+      <div  class="col-md-12">
+
+<p>Se crea una nueva lista llamada ‘lista’ que almacena elementos de tipo String mediante la implementación de un ArrayList.<br><br>
+
+Se agregan 3 elementos a la lista.<br><br>
+
+Se recorre la lista usando un sencillo bucle for.
+</p>
+
+
+     </div><br>
+
+     
+    <!--INICIO COLUMNA DONDE VA IMAGEN+LEYENDA LATERAL DERECHO. -->
+                                   
+
+                                <div class="col-md-6 mx-auto d-block col-sm-10 mx-auto d-block"  >
+                                      
+
+                                           <!--FILA PARA LA IMAGEN-->
+                                <!--Modificamos el height en px para ajustar tamaño según necesidad y adaptar la separación al botón de Descargar Tabla-->
+                                <iframe style="border-style: none; "   src="codigo.htm" height="300" width="100%"  ></iframe>
+
+                              </div>
+
+      </div> 
+
+ <!-- FIN DE LA COLUMNA DONDE VA IMAGEN-->
+
+
+<!--INICIO BLOQUE PARA PARRAFO + IMG LATERAL DERECHA-->
+
+   <div class="row">
+
+      <div  class="col-md-12">
+
+<p>En el siguiente ejemplo en vez de recorrer la lista con una estructura for como de costumbre, se hace uso de un for-each y de un iterador, después de añadir los elementos a la lista.<br><br>
+
+La lectura de este for-each sería la siguiente: <br><br>
+
+&#60;&#60;Para cada elemento de tipo String que pertenece a lista mostrar elemento, entonces la variable elemento irá tomando cada vez los valores de la lista ‘lista’>> <br><br>
+
+Aquí, se aplica este bucle a una lista, pero se puede usar con cualquier colección, sin embargo, hay operaciones para las que no vale, como por ejemplo eliminar nodos ya que ‘elemento’ es siempre la referencia a una copia de un elemento de la lista, en este caso tendremos que usar el iterador.<br><br>
+
+A continuación, se define un iterador llamado ‘it’ con el tipo String que empieza apuntando al principio de la lista ‘lista’.<br><br>
+
+Justo después se vuelve a recorrer la lista pero usando el iterador que acabamos de crear que se ejecuta mientras el iterador tenga más elementos para recorrer, es decir, mientras it.hasNext() devuelva true.  En el momento que se encuentre un elemento igual a “Elemento 2” se efectuará el borrado de dicho elemento.
+</p>
+
+
+     </div><br>
+
+     
+    <!--INICIO COLUMNA DONDE VA IMAGEN+LEYENDA LATERAL DERECHO. -->
+                                   
+
+                                <div class="col-md-6 mx-auto d-block col-sm-10 mx-auto d-block"  >
+                                      
+
+                                           <!--FILA PARA LA IMAGEN-->
+                                <!--Modificamos el height en px para ajustar tamaño según necesidad y adaptar la separación al botón de Descargar Tabla-->
+                                <iframe style="border-style: none; "   src="codigo2.htm" height="600" width="100%"  ></iframe>
+
+                              </div>
+
+                                 <div  class="col-md-12">
+
+<p>El resultado por pantalla será:<br><br>
+
+Lista antes de la eliminación:<br>
+Elemento 1<br>
+Elemento 2<br>
+Elemento 3<br>
+Elemento 2<br><br>
+
+
+Lista después de la eliminación:<br>
+[Elemento 1, Elemento 3]
+</p>
+
+
+     </div><br>
+
+      </div> 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</div></div>
+  
+</div>
+<!-- FIN-->
+  <script src='js/jquery.min.js'></script>
+<script src='js/bootstrap.min.js'></script>
+</body>
+</html>
